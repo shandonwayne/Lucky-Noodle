@@ -1,0 +1,823 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+   <meta charset="utf-8">
+   <meta http-equiv="x-ua-compatible" content="ie=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+   <title>Lucky Noodle</title>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/menu.css">
+	<link rel="stylesheet" href="css/bootstrap/css/bootstrap.css">
+	<link rel="stylesheet" href="css/bootstrap/slider/css/bootstrap-slider.css">
+	<link rel="stylesheet" href="css/custom.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Raleway:100,400,600,800,900" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Vibur" rel="stylesheet">
+
+	<link rel="stylesheet" href="css/animations.css">
+	<!--Full Page Scroll Effect-->
+	<link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
+	<script src="js/jquery.fullPage.min.js" defer></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<!--My Page JS-->
+	<script src="css/bootstrap/js/bootstrap.min.js"></script>
+   <script type="text/javascript" src="css/bootstrap/slider/js/bootstrap-slider.js"></script>
+	<script src="js/menu.js" defer></script>
+	<!--Favicon-->
+	<link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" href="favicon/favicon-32x32.png" sizes="32x32">
+	<link rel="icon" type="image/png" href="favicon/favicon-16x16.png" sizes="16x16">
+	<link rel="manifest" href="favicon/manifest.json">
+	<link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5">
+	<meta name="theme-color" content="#ffffff">
+	<!--Animate-->
+	<script src="js/css3-animate-it.js" defer></script>
+</head>
+
+
+<body>
+
+<!--========== NAV ============-->
+
+	 	<a href="index.html"><img class="logo-nav" src="img/logo-navII.png"></a>
+
+	 <nav class="nav">
+		  <ul class="nav">
+			 <li class="nav-li"><a class="nav-txt" href="onlineorder.html">ORDER ONLINE</a></li>
+			 <li class="nav-li"><a class="nav-txt" href="aboutus.html">ABOUT US</a></li>
+			 <li class="nav-li"><a class="nav-txt" href="menu.html">MENU</a></li>
+			 <li class="nav-li"><a class="nav-txt" href="index.html">HOME</a></li>
+		  </ul>
+	 </nav>
+
+
+<!--====== HEADER ======-->
+	
+	<div class="section top active" data-anchor="slide1">
+	<img class="overlay" src="img/index-overlay.png">
+		<div class="container">
+			<div class="row">
+
+				<div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2">
+					<h3 class="chinese-header">菜单</h3>
+					<h3 class="menu">MENU</h3>
+				</div>
+
+			</div>
+		</div>
+	</div>
+	
+<!--====== MENU ======-->
+
+	<div class="container-fluid menu-section">
+		<div class="menu-top">
+			
+<!--
+				<div class="row">
+					<div class="col-xs-10 col-xs-offset-1 col-sm-4 col-sm-offset-3">
+						<h1 class="menu-header">MENU</h1>
+					</div>
+				</div>
+-->
+			
+				<div class="row">
+					<div class="col-xs-4 col-xs-offset-0 col-sm-2 col-sm-offset-3">
+						<p class="menu-title">DRINKS</p>
+						<img id="myBtnDrinks" class="menu-item drink" onmouseover="this.src='img/menu-drinks.gif'" src="img/menu-drink.png" alt="drink">
+					</div>
+					<div class="col-xs-4 col-xs-offset-0 col-sm-2 col-sm-offset-0">
+						<p class="menu-title">APPS</p>
+						<img id="myBtnApps" class="menu-item app" style="padding-top:11px;" onmouseover="this.src='img/menu-apps.gif'" src="img/menu-app.png">
+					</div>
+					<div class="col-xs-4 col-xs-offset-0 col-sm-2 col-sm-offset-0 clearfix">
+						<p class="menu-title">RAMEN</p>
+						<img id="myBtnRamen" class="menu-item ramen" onmouseover="this.src='img/menu-ramen.gif'" src="img/menu-ramen.png">
+					</div>
+
+					<div class="col-xs-4 col-xs-offset-0 col-sm-2 col-sm-offset-3">
+						<p class="menu-title">SUSHI</p>
+						<img id="myBtnSushi" class="menu-item sushi" onmouseover="this.src='img/menu-sushi.gif'" src="img/menu-sushi.png">
+					</div>
+					<div class="col-xs-4 col-xs-offset-0 col-sm-2 col-sm-offset-0">
+						<p class="menu-title">BURRITO</p>
+						<img id="myBtnBurrito" class="menu-item burrito" onmouseover="this.src='img/menu-burrito.gif'" src="img/menu-burrito.png">
+					</div>
+					<div class="col-xs-4 col-xs-offset-0 col-sm-2 col-sm-offset-0">
+						<p class="menu-title">CHINESE</p>
+						<img id="myBtnChinese" class="menu-item chinese" onmouseover="this.src='img/menu-chinese.gif'" src="img/menu-chinese.png">
+					</div>
+
+					<div class="col-xs-4 col-xs-offset-0 col-sm-2 col-sm-offset-3">
+						<p class="menu-title">KIDS</p>
+						<img id="myBtnKids" class="menu-item kids" onmouseover="this.src='img/menu-kids.gif'" src="img/menu-kids.png">
+					</div>
+					<div class="col-xs-4 col-xs-offset-0 col-sm-2 col-sm-offset-0">
+						<p class="menu-title">DESSERT</p>
+						<img id="myBtnDessert" class="menu-item desserts" onmouseover="this.src='img/menu-dessert.gif'" src="img/menu-dessert.png">
+					</div>
+					<div class="col-xs-4 col-xs-offset-0 col-sm-2 col-sm-offset-0">
+						<p class="menu-title">CATERING</p>
+						<img id="myBtnCatering" class="menu-item catering" onmouseover="this.src='img/menu-catering.gif'" src="img/menu-catering.png">
+					</div>
+					
+					<!-- Drinks Modal -->
+					<div id="myModalDrinks" class="modal">
+					  <div class="modal-content">
+						 <span class="close closeDrinks">&times;</span>
+						 <div class="container" style="text-align:left;">
+						 	<div class="row top-title">
+						 		<div class="col-xs-1 col-xs-offset-0" style="text-align:right;">
+						 		<img class="menu-inisde-drinks" src="img/menu-drink.png">
+						 		</div>
+						 		<div class="col-xs-1 col-xs-offset-0">
+						 		<p class="inside-title">DRINKS</p>
+						 		</div>
+							 </div>
+							 
+						 		<div class="col-xs-10 col-xs-offset-1 col-sm-5 col-sm-offset-1 margin-top">
+									<div class="row">
+											<div class="col-xs-6 col-xs-offset-0">
+												<p class="menu-items">BUBBLE TEA</p>
+											</div>
+											<div class="col-xs-6 col-xs-offset-0">
+												<div class="bold">5</div>
+											</div>
+									</div>
+									<div class="row">
+										<div class="col-xs-6 col-xs-offset-0">
+												<p class="menu-item-sub">Original</p>
+												<p class="menu-item-sub">Taro</p>
+												<p class="menu-item-sub">Read Bean</p>
+										</div>
+										<div class="col-xs-6 col-xs-offset-0">
+												<p class="menu-item-sub">Lychee</p>
+												<p class="menu-item-sub">Strawberry</p>
+												<p class="menu-item-sub">Mango</p>
+										</div>
+									</div>
+								</div>
+						 		
+						 		<div class="col-xs-10 col-xs-offset-1 col-sm-5 col-sm-offset-0 margin-top">
+									<div class="row">
+										<div class="col-xs-6 col-xs-offset-0">
+											<p class="menu-items">COKE PRODUCTS</p>
+										</div>
+										<div class="col-xs-6 col-xs-offset-0">
+											<div class="bold">2.5</div>
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-xs-6 col-xs-offset-0">
+												<p class="menu-item-sub">Coke</p>
+												<p class="menu-item-sub">Diet Coke</p>
+												<p class="menu-item-sub">Sprite</p>
+										</div>
+										<div class="col-xs-6 col-xs-offset-0">
+												<p class="menu-item-sub">Mello Yello</p>
+												<p class="menu-item-sub">Sunkist Orange</p>
+												<p class="menu-item-sub">Pink Lemonade</p>
+										</div>
+						 			</div>
+								 </div>
+								 
+								  <div class="col-xs-10 col-xs-offset-1 col-sm-5 col-sm-offset-1 margin-top">
+									<div class="row">
+											<div class="col-xs-6 col-xs-offset-0">
+												<p class="menu-items">GREEN TEA</p>
+											</div>
+											<div class="col-xs-6 col-xs-offset-0">
+												<div class="bold">1</div>
+											</div>
+									</div>
+									
+								</div>
+			
+							 </div>
+					  	</div>
+					   </div>
+					</div>
+					
+					<!-- Apps Modal -->
+					<div id="myModalApps" class="modal">
+					  <div class="modal-content">
+						 <span class="close closeApps">&times;</span>
+						  <div class="container" style="text-align:left;">
+						 	<div class="row top-title">
+						 		<div class="col-xs-1 col-xs-offset-0" style="text-align:right;">
+						 		<img class="menu-inisde-apps" src="img/menu-app.png">
+						 		</div>
+						 		<div class="col-xs-1 col-xs-offset-0">
+						 		<p class="inside-title">APPS</p>
+						 		</div>
+							 </div>
+								
+								<div class="margin-top">
+								<div class="col-xs-10 col-xs-offset-1 col-sm-5 col-sm-offset-1">
+									<div class="row">
+											<div class="col-xs-6 col-xs-offset-0">
+												<p class="menu-items">CRAB RANGOONS</p>
+											</div>
+											<div class="col-xs-6 col-xs-offset-0">
+												<div class="bold">5</div>
+											</div>
+									</div>
+								</div>
+						 		
+						 		<div class="col-xs-10 col-xs-offset-1 col-sm-5 col-sm-offset-0">
+									<div class="row">
+										<div class="col-xs-6 col-xs-offset-0">
+											<p class="menu-items">SPRING ROLL</p>
+										</div>
+										<div class="col-xs-6 col-xs-offset-0">
+											<div class="bold">2</div>
+										</div>
+									</div>
+								 </div>
+								 
+								  <div class="col-xs-10 col-xs-offset-1 col-sm-5 col-sm-offset-1">
+									<div class="row">
+											<div class="col-xs-6 col-xs-offset-0">
+												<p class="menu-items">DUMPLING</p>
+											</div>
+											<div class="col-xs-6 col-xs-offset-0">
+												<div class="bold">5</div>
+											</div>
+									</div>
+						 		</div>
+						 		<div class="col-xs-10 col-xs-offset-1 col-sm-5 col-sm-offset-0">
+									<div class="row">
+											<div class="col-xs-6 col-xs-offset-0">
+												<p class="menu-items">SHRIMP TEMPURA</p>
+											</div>
+											<div class="col-xs-6 col-xs-offset-0">
+												<div class="bold">5</div>
+											</div>
+									</div>
+						 		</div>
+						 		<div class="col-xs-10 col-xs-offset-1 col-sm-5 col-sm-offset-1 bg-color">
+									<div class="row">
+											<div class="col-xs-6 col-xs-offset-0">
+												<p class="menu-items">SHUMAI</p>
+											</div>
+											<div class="col-xs-6 col-xs-offset-0">
+												<div class="bold">5</div>
+											</div>
+									</div>
+						 		</div>
+						 		<div class="col-xs-10 col-xs-offset-1 col-sm-5 col-sm-offset-0">
+									<div class="row">
+											<div class="col-xs-6 col-xs-offset-0">
+												<p class="menu-items">SEAWEED SALAD</p>
+											</div>
+											<div class="col-xs-6 col-xs-offset-0">
+												<div class="bold">5</div>
+											</div>
+									</div>
+						 		</div>
+									<div class="col-xs-10 col-xs-offset-1 col-sm-5 col-sm-offset-1">
+									<div class="row">
+											<div class="col-xs-6 col-xs-offset-0">
+												<p class="menu-items">SUSHI APPETIZER</p>
+											</div>
+											<div class="col-xs-6 col-xs-offset-0">
+												<div class="bold">5</div>
+											</div>
+									</div>
+						 		</div>
+								<div class="col-xs-10 col-xs-offset-1 col-sm-5 col-sm-offset-0">
+									<div class="row">
+											<div class="col-xs-6 col-xs-offset-0">
+												<p class="menu-items">SASHIMI APPETIZER</p>
+											</div>
+											<div class="col-xs-6 col-xs-offset-0">
+												<div class="bold">5</div>
+											</div>
+									</div>
+						 		</div>
+						 		<div class="col-xs-10 col-xs-offset-1 col-sm-5 col-sm-offset-1">
+									<div class="row">
+											<div class="col-xs-6 col-xs-offset-0">
+												<p class="menu-items">EGG DROP SOUP</p>
+											</div>
+											<div class="col-xs-6 col-xs-offset-0">
+												<div class="bold">2</div>
+											</div>
+									</div>
+						 		</div>
+						 		<div class="col-xs-10 col-xs-offset-1 col-sm-5 col-sm-offset-0">
+									<div class="row">
+											<div class="col-xs-6 col-xs-offset-0">
+												<p class="menu-items">HOT & SOUR SOUP</p>
+											</div>
+											<div class="col-xs-6 col-xs-offset-0">
+												<div class="bold">2</div>
+											</div>
+									</div>
+						 		</div>
+								<div class="col-xs-10 col-xs-offset-1 col-sm-5 col-sm-offset-1">
+									<div class="row">
+											<div class="col-xs-6 col-xs-offset-0">
+												<p class="menu-items">SPICY TUNA AVO BOWL</p>
+											</div>
+											<div class="col-xs-6 col-xs-offset-0">
+												<div class="bold">5</div>
+											</div>
+									</div>
+						 		</div>
+							 </div>
+					  	</div>
+					</div>
+				</div>
+					
+					<!-- Ramen Modal -->
+					<div id="myModalRamen" class="modal">
+					  <div class="modal-content">
+						 <span class="close closeRamen">&times;</span>
+						  <div class="container" style="text-align:left;">
+						 	<div class="row top-title">
+						 		<div class="col-xs-1 col-xs-offset-0" style="text-align:right;">
+						 		<img class="menu-inisde-ramen" src="img/menu-ramen.png">
+						 		</div>
+						 		<div class="col-xs-1 col-xs-offset-0">
+						 		<p class="inside-title">RAMEN</p>
+						 		</div>
+							 </div>
+							<div class="row">
+						 		<div class="col-xs-10 col-xs-offset-1 col-sm-5 col-sm-offset-1">
+						 			<p class="menu-items">RAMEN</p>
+						 			<p class="menu-item-sub">Mango</p>
+						 		</div>
+						 		<div class="col-xs-10 col-xs-offset-1 col-sm-5 col-sm-offset-0">
+						 			<p class="menu-items">Bubble Tea</p>
+						 		</div>
+						 </div>
+					  	</div>
+					  </div>
+					</div>
+					
+					<!-- Sushi Modal -->
+					<div id="myModalSushi" class="modal">
+					  <div class="modal-content">
+						 <span class="close closeSushi">&times;</span>
+						  <div class="container" style="text-align:left;">
+						 	<div class="row top-title">
+						 		<div class="col-xs-1 col-xs-offset-0" style="text-align:right;">
+						 		<img class="menu-inisde-sushi" src="img/menu-sushi.png">
+						 		</div>
+						 		<div class="col-xs-1 col-xs-offset-0">
+						 		<p class="inside-title">SUSHI</p>
+						 		</div>
+							 </div>
+							<div class="row">
+						 		<div class="col-xs-10 col-xs-offset-1 col-sm-5 col-sm-offset-1">
+						 			<p class="menu-items">BUBBLE TEA</p>
+						 			<p class="menu-item-sub">Mango</p>
+						 		</div>
+						 		<div class="col-xs-10 col-xs-offset-1 col-sm-5 col-sm-offset-0">
+						 			<p class="menu-items">Bubble Tea</p>
+						 		</div>
+						 </div>
+					  	</div>
+					  </div>
+					</div>
+					
+					<!-- Burrito Modal -->
+					<div id="myModalBurrito" class="modal">
+					  <div class="modal-content">
+						 <span class="close closeBurrito">&times;</span>
+						  <div class="container" style="text-align:left;">
+						 	<div class="row top-title">
+						 		<div class="col-xs-1 col-xs-offset-0" style="text-align:right;">
+						 		<img class="menu-inisde-burrito" src="img/menu-burrito.png">
+						 		</div>
+						 		<div class="col-xs-1 col-xs-offset-0">
+						 		<p class="inside-title">SUSHI BURRITO</p>
+						 		</div>
+							 </div>
+							<div class="row">
+						 		<div class="col-xs-10 col-xs-offset-1 col-sm-5 col-sm-offset-1">
+						 			<p class="menu-items">BUBBLE TEA</p>
+						 			<p class="menu-item-sub">Mango</p>
+						 		</div>
+						 		<div class="col-xs-10 col-xs-offset-1 col-sm-5 col-sm-offset-0">
+						 			<p class="menu-items">Bubble Tea</p>
+						 		</div>
+						 </div>
+					  	</div>
+					  </div>
+					</div>
+					
+					<!-- Chinese Modal -->
+					<div id="myModalChinese" class="modal">
+					  <div class="modal-content">
+						 <span class="close closeChinese">&times;</span>
+						  <div class="container" style="text-align:left;">
+						 	<div class="row top-title">
+						 		<div class="col-xs-1 col-xs-offset-0" style="text-align:right;">
+						 		<img class="menu-inisde-chinese" src="img/menu-chinese.png">
+						 		</div>
+						 		<div class="col-xs-1 col-xs-offset-0">
+						 		<p class="inside-title">CHINESE</p>
+						 		</div>
+							 </div>
+							<div class="row">
+						 		<div class="col-xs-10 col-xs-offset-1 col-sm-5 col-sm-offset-1">
+						 			<p class="menu-items">BUBBLE TEA</p>
+						 			<p class="menu-item-sub">Original</p>
+						 			<p class="menu-item-sub">Taro</p>
+						 			<p class="menu-item-sub">Read Bean</p>
+						 			<p class="menu-item-sub">Lychee</p>
+						 			<p class="menu-item-sub">Strawberry</p>
+						 			<p class="menu-item-sub">Mango</p>
+						 		</div>
+						 		<div class="col-xs-10 col-xs-offset-1 col-sm-5 col-sm-offset-0">
+						 			<p class="menu-items">Bubble Tea</p>
+						 		</div>
+						 </div>
+					  	</div>
+					  </div>
+					</div>
+					
+					<!-- Kids Modal -->
+					<div id="myModalKids" class="modal">
+					  <div class="modal-content">
+						 <span class="close closeKids">&times;</span>
+						  <div class="container" style="text-align:left;">
+						 	<div class="row top-title">
+						 		<div class="col-xs-1 col-xs-offset-0" style="text-align:right;">
+						 		<img class="menu-inisde-kids" src="img/menu-kids.png">
+						 		</div>
+						 		<div class="col-xs-1 col-xs-offset-0">
+						 		<p class="inside-title">KIDS</p>
+						 		</div>
+							 </div>
+							<div class="row">
+						 		<div class="col-xs-10 col-xs-offset-1 col-sm-5 col-sm-offset-1">
+						 			<p class="menu-items">BUBBLE TEA</p>
+						 			<p class="menu-item-sub">Mango</p>
+						 		</div>
+						 		<div class="col-xs-10 col-xs-offset-1 col-sm-5 col-sm-offset-0">
+						 			<p class="menu-items">Bubble Tea</p>
+						 		</div>
+						 </div>
+					  	</div>
+					  </div>
+					</div>
+					
+					<!-- Dessert Modal -->
+					<div id="myModalDessert" class="modal">
+					  <div class="modal-content">
+						 <span class="close closeDessert">&times;</span>
+						  <div class="container" style="text-align:left;">
+						 	<div class="row top-title">
+						 		<div class="col-xs-1 col-xs-offset-0" style="text-align:right;">
+						 		<img class="menu-inisde-dessert" src="img/menu-dessert.png">
+						 		</div>
+						 		<div class="col-xs-1 col-xs-offset-0">
+						 		<p class="inside-title">DESSERT</p>
+						 		</div>
+							 </div>
+							<div class="row">
+						 		<div class="col-xs-10 col-xs-offset-1 col-sm-5 col-sm-offset-1">
+						 			<p class="menu-items">BUBBLE TEA</p>
+						 			<p class="menu-item-sub">Mango</p>
+						 		</div>
+						 		<div class="col-xs-10 col-xs-offset-1 col-sm-5 col-sm-offset-0">
+						 			<p class="menu-items">Bubble Tea</p>
+						 		</div>
+						 </div>
+					  	</div>
+					  </div>
+					</div>
+					
+					<!-- Catering Modal -->
+					<div id="myModalCatering" class="modal">
+					  <div class="modal-content">
+						 <span class="close closeCatering">&times;</span>
+						  <div class="container" style="text-align:left;">
+						 	<div class="row top-title">
+						 		<div class="col-xs-1 col-xs-offset-0" style="text-align:right;">
+						 		<img class="menu-inisde-catering" src="img/menu-catering.png">
+						 		</div>
+						 		<div class="col-xs-1 col-xs-offset-0">
+						 		<p class="inside-title">CATERING</p>
+						 		</div>
+							 </div>
+							<div class="row">
+						 		<div class="col-xs-10 col-xs-offset-1 col-sm-5 col-sm-offset-1">
+						 			<p class="menu-items">BUBBLE TEA</p>
+						 			<p class="menu-item-sub">Mango</p>
+						 		</div>
+						 		<div class="col-xs-10 col-xs-offset-1 col-sm-5 col-sm-offset-0">
+						 			<p class="menu-items">Bubble Tea</p>
+						 		</div>
+						 </div>
+					  	</div>
+					  </div>
+					</div>
+					
+			</div>
+			
+			<div class="row">
+				<div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">
+					<div class="centered">
+						<a class="menu-link" href="menu.html"><button class="menu-btn">PRINTABLE PDF MENU</button></a>
+					</div>
+				</div>
+			</div>
+
+	</div>
+
+
+<!--====== GAME ======-->
+
+	<div class="game-section">
+		
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2">
+					<p class="game-intro">At this sushi restaurant we have a ramen of the month. Help us come up with recipe’s and we might just feature your ramen!  Follow the steps below to get started.</p>
+				</div>
+			</div>
+		</div>
+		
+		
+		<!--====== SLIDER ======-->
+		
+		<div class="container-fluid slider-section">
+			<div class="row">
+				<div class="col-xs-10 col-xs-offset-1 col-sm-5 col-sm-offset-2">
+
+				<div>
+					<input type="button" value="b1" id="bt1" data-hs-group="a" data-hs-target="1" />
+					<input type="button" value="b2" id="bt2" data-hs-group="a" data-hs-target="2" />
+					<input type="button" value="b3" id="bt3" data-hs-group="a" data-hs-target="3" />
+				</div>
+				
+				<div>
+					<div data-hs-group="a" data-hs-id="1">
+						<div class="col-xs-10 col-xs-offset-1 col-md-8 col-md-offset-2">
+							<p class="step">STEP ONE:</p>
+							<p class="step-sub">CHOOOSE A BROTH.</p>
+						</div>
+					</div>
+
+					<div data-hs-group="a" data-hs-id="2">
+						<div class="col-xs-10 col-xs-offset-1 col-md-8 col-md-offset-2">
+							<p class="step">STEP TWO:</p>
+							<p class="step-sub">CHOOOSE A PROTEIN.</p>
+						</div>
+					</div>
+
+					<div data-hs-group="a" data-hs-id="3">
+						<div class="col-xs-10 col-xs-offset-1 col-md-8 col-md-offset-2">
+							<p class="step">STEP THREE:</p>
+							<p class="step-sub">CHOOOSE SOME EXTRAS.</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="row">
+						<div class="center myslider">
+							<span id="ex18-label-1" class="hidden"></span>
+							<input id="slider1" type="text" 
+													  data-slider-ticks="[1, 2, 3]" 
+													  data-slider-min="1" 
+													  data-slider-max="3" 
+													  data-slider-step="1" 
+													  data-slider-value="1" 
+													  data-slider-tooltip="hide"/>
+					</div>
+				</div>
+				
+				<div class="col-xs-12 col-xs-offset-0 col-lg-7 col-lg-offset-1 food-title-wrapper">
+					<p class="food-title miso-title">MISO</p>
+					<p class="food-title tonkatsu-title">TONKATSU</p>
+					<p class="food-title shoyu-title">SHOYU</p>
+					<p class="food-title default-title">CHOOSE WISELY</p>	
+					<p class="food-title beef-title">BEEF</p>	
+					<p class="food-title chicken-title">CHICKEN</p>	
+					<p class="food-title pork-title">PORK</p>	
+					<p class="food-title shrimp-title">SHRIMP</p>	
+					<p class="food-title tofu-title">TOFU</p>	
+					<p class="food-title nomeat-title">NO MEAT</p>	
+					<p class="food-title egg-title">EGG</p>
+					<p class="food-title seaweed-title">SEAWEED</p>	
+					<p class="food-title chili-title">CHILI</p>	
+					<p class="food-title garlic-title">GARLIC</p>	
+					<p class="food-title bamboo-title">BAMBOO</p>	
+					<p class="food-title mushroom-title">MUSHROOM</p>	
+					<p class="food-title noodle-title">NOODLE</p>	
+					<p class="food-title naruto-title">FISH CAKE</p>
+					<p class="food-title sprout-title">BEANSPROUTS</p>	
+					<p class="food-title cabbage-title">CABBAGE</p>	
+					<p class="food-title onion-title">GREEN ONION</p>	
+					<p class="food-title vinegar-title">VINEGAR</p>	
+					<p class="food-title sesame-title">SESAME OIL</p>	
+					<p class="food-title corn-title">CORN</p>
+					<p class="food-title carrot-title">CARROT</p>
+					<p class="food-title extraMeat-title">EXTRA MEAT</p>	
+				</div>
+				
+				<div class="icon-grid">
+					<div class="col-xs-12 col-xs-offset-0 col-lg-7 col-lg-offset-1">
+						<!-- Wrapper for slides -->
+						<div class="container-fluid slide1" data-hs-group="a" data-hs-id="1">
+							<div class="row">
+									<div class="col-xs-4 col-xs-offset-0">
+										<img class="food-icon" id="miso" src="img/game-broth1.png">
+									</div>
+									<div class="col-xs-4 col-xs-offset-0">
+										<img class="food-icon" id="tonkatsu" src="img/game-broth2.png">
+									</div>
+									<div class="col-xs-4 col-xs-offset-0">
+										<img class="food-icon" id="shoyu" src="img/game-broth3.png">
+									</div>
+								</div>
+						</div>
+						<div class="container-fluid slide2" data-hs-group="a" data-hs-id="2">
+							<div class="row">
+								<div class="col-xs-4 col-xs-offset-0">
+									<img class="food-icon" id="beef" src="img/game-beef.png">
+								</div>
+								<div class="col-xs-4 col-xs-offset-0">
+									<img class="food-icon" id="chicken" src="img/game-chicken.png">
+								</div>
+								<div class="col-xs-4 col-xs-offset-0">
+									<img class="food-icon" id="pork" src="img/game-pork.png">
+								</div>
+								<div class="col-xs-4 col-xs-offset-0">
+									<img class="food-icon" id="shrimp" src="img/game-shrimp.png">
+								</div>
+								<div class="col-xs-4 col-xs-offset-0">
+									<img class="food-icon" id="tofu" src="img/game-tofu.png">
+								</div>
+								<div class="col-xs-4 col-xs-offset-0">
+									<img class="food-icon" id="noMeat" src="img/game-nomeat.png">
+								</div>
+							</div>
+						</div>
+						<div class="container-fluid slide3" data-hs-group="a" data-hs-id="3">
+							<div class="row">
+								 <div id="extra1">
+									<div class="col-xs-4 col-xs-offset-0">
+										<img class="food-icon" id="egg" src="img/game-egg.png">
+									</div>
+									<div class="col-xs-4 col-xs-offset-0">
+										<img class="food-icon" id="seaweed" src="img/game-seaweed.png">
+									</div>
+									<div class="col-xs-4 col-xs-offset-0">
+										<img class="food-icon" id="chili" src="img/game-chili.png">
+									</div>
+
+									<div class="col-xs-4 col-xs-offset-0">
+										<img class="food-icon" id="garlic" src="img/game-garlic.png">
+									</div>
+									<div class="col-xs-4 col-xs-offset-0">
+										<img class="food-icon" id="bamboo" src="img/game-bamboo.png">
+									</div>
+									<div class="col-xs-4 col-xs-offset-0">
+										<img class="food-icon" id="mushroom" src="img/game-mushroom.png">
+									</div>
+									<div class="col-xs-4 col-xs-offset-0">
+										<img class="food-icon" id="xtraNoodle" src="img/game-noodle.png">
+									</div>
+									<div class="col-xs-4 col-xs-offset-0">
+										<img class="food-icon" id="naruto" src="img/game-naruto.png">
+									</div>
+									<div class="col-xs-4 col-xs-offset-0">
+										<img class="food-icon" id="sprout" src="img/game-sprout.png">
+									</div>
+								</div>
+								<div id="extra2">
+									<div class="col-xs-4 col-xs-offset-0">
+										<img class="food-icon" id="cabbage" src="img/game-cabbage.png">
+									</div>
+									<div class="col-xs-4 col-xs-offset-0">
+										<img class="food-icon" id="onion" src="img/game-onion.png">
+									</div>
+									<div class="col-xs-4 col-xs-offset-0">
+										<img class="food-icon" id="vinegar" src="img/game-vinegar.png">
+									</div>
+
+									<div class="col-xs-4 col-xs-offset-0">
+										<img class="food-icon" id="sesame" src="img/game-sesame.png">
+									</div>
+									<div class="col-xs-4 col-xs-offset-0">
+										<img class="food-icon" id="corn" src="img/game-corn.png">
+									</div>
+									<div class="col-xs-4 col-xs-offset-0">
+										<img class="food-icon" id="carrot" src="img/game-carrot.png">
+									</div>
+									<div class="col-xs-4 col-xs-offset-0">
+										<img class="food-icon" id="extraMeat" src="img/game-chicken.png">
+									</div>
+									<div class="col-xs-4 col-xs-offset-0">
+										<img class="food-icon" id="noExtra" src="img/game-nomeat.png">
+									</div>
+								</div>
+								
+								<div class="col-xs-4 col-xs-offset-4">
+										<p class="next-btn" id="nextBtn"> <i class="fa fa-arrow-right" aria-hidden="true"></i> </p>
+								</div>
+
+								</div>
+							</div>
+							
+						</div>
+					</div>
+				
+				</div>
+
+				<div class="col-xs-10 col-xs-offset-1 col-sm-5 col-sm-offset-0 default">
+					<img class="game-icon" src="img/game-bowl.png">
+				</div>
+				<div class="col-xs-10 col-xs-offset-1 col-sm-5 col-sm-offset-0 bowl-broth1">
+					<div class="bowlIcons">
+					</div>
+					<img class="game-icon" src="img/game-bowl-broth1.png">
+				</div>
+				<div class="col-xs-10 col-xs-offset-1 col-sm-5 col-sm-offset-0 bowl-broth2">
+					<div class="bowlIcons"></div>
+					<img class="game-icon" src="img/game-bowl-broth2.png">
+				</div>
+				<div class="col-xs-10 col-xs-offset-1 col-sm-5 col-sm-offset-0 bowl-broth3">
+					<div class="bowlIcons">
+						
+					</div>
+					<img class="game-icon" src="img/game-bowl-broth3.png">
+				</div>
+			</div>
+			
+<!--
+			<div class="container-fluid">
+				<div class="row">
+					<img class="vgh" src="img/game-vgf.png">
+				</div>
+			</div>
+-->
+			
+			</div>
+		</div>
+		
+	<div class="thank-you">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12 col-xs-offset-1 col-sm-8 col-sm-offset-2">
+					<h1 class="fancy-font">Looks Delicious ~</h1>
+					<p class="confirmation">A confirmation email will be sent to you shortly. Winners are chosen the first of every month. If your ramen is chosen you will recieve a free bowl of their ramen and your photo will go on our wall of fame. We can’t wait to see what you’ve created!</p>
+					<div class="col-xs-10 col-xs-offset-1 center">
+						<img class="bowl-ph" src="img/bowl-ph.png">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+  
+
+<!--====== FOOTER ======-->
+		
+		<div id="footer">
+			<div class="container">
+			
+				<div class="row">
+					<div class="col-xs-10 col-xs-offset-1 col-sm-3 col-sm-offset-1">
+						<p class="footer-LN">LUCKY NOODLE</p>
+					</div>
+				</div>
+			
+				<div class="row">
+					<div class="col-xs-5 col-xs-offset-1 col-sm-3 col-sm-offset-1">
+						<p class="footer-title">ADDRESS</p>
+						<p class="address">1520 Rosebud Avenue</p>
+						<p class="address">Grand Rapids MI</p>
+						<p class="footer-title">PHONE NUMBER</p>
+						<p class="phone-number">870-480-5681</p>
+						<i class="fa fa-instagram" aria-hidden="true"></i>
+						<i class="fa fa-facebook" aria-hidden="true"></i>
+					</div>
+					
+					<div class="col-xs-5 col-xs-offset-0 col-sm-3 col-sm-offset-1">
+						<p class="footer-title">HOURS</p>
+						<p class="footer-days monday">MONDAY-THURSDAY</p>
+						<p class="footer-hours">11:00 - 10:00</p>
+						<p class="footer-days">FRIDAY-SATURDAY</p>
+						<p class="footer-hours">11:00 - 11:00</p>
+						<p class="footer-days">SUNDAY</p>
+						<p class="footer-hours">12:00 - 9:00</p>
+					</div>
+					
+					<div class="col-xs-10 col-xs-offset-1 col-sm-4 col-sm-offset-0 centered animatedParent animateOnce">
+						<img class="footer-logo animated swing" src="img/logo.png">
+					</div>
+					
+				</div>
+			</div>
+		</div>
+
+		
+
+</body>
+</html>

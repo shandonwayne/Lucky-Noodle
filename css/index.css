@@ -1,0 +1,199 @@
+/*
+RED   #dd4e58;
+GREEN #b6ffe3;
+*/
+
+body{
+	background-color: #b6ffe3 !important;
+}
+
+/*=========== TOP ==============*/
+.chinese-header{
+	margin-top: 25vh;
+	font-size: 45px;
+	color: white;
+}
+
+.welcome{
+	font-weight: 700;
+	font-family: 'Raleway', sans-serif !important;
+	margin-bottom: -12px;
+	color: white;
+}
+
+.lucky-noodle{
+	font-size: 45px;
+	font-weight: 900;
+	font-family: 'Raleway', sans-serif !important;
+	line-height: 1.3em;
+	color: white;
+}
+
+.top, .abovefold{
+	width: 100%;
+	height: 100vh;
+	background-image: url(../img/index-header.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+   background-position: center;
+	
+}
+
+.logo-lg{
+	 position: absolute;
+    width: 200px;
+    left: 50%;
+    margin-left: -125px;
+    top: 30vh;
+}
+
+.overlay{
+	width: 100%;
+	position: absolute;
+	top: 0;
+}
+
+/*=========== FIRST SECTION ==============*/
+
+.not-top{
+	background-color: white;
+}
+
+.body-txt{
+	margin-top: 75px;
+}
+
+.what-we-make{
+	font-size: 23px;
+	font-weight: bolder;
+	text-align: center;
+	margin-top: 30px;
+}
+
+@media (min-width: 600px) {
+	.what-we-make{
+		font-size: 30px;
+		margin-top: 50px;
+	}
+}
+
+.icon-title{
+	font-size: 16px;
+	font-weight: bolder;
+	text-align: center;
+	margin-top: 20px;
+	color: #dd4e58;
+}
+
+@media (min-width: 600px) {
+	.icon-title{
+		font-size: 26px;
+	}
+}
+
+.food-icon{
+	width: 100%;
+}
+
+@media (min-width: 600px) {
+  .food-icon {
+    padding: 1em;
+  }
+}
+
+
+.menu-btn{
+	text-align: center;
+	margin-top: 45px;
+	margin-bottom: 100px;
+	background-color: #b6ffe3;
+	border-radius: 35px;
+	border: #292929 3px solid;
+	font-size: 20px;
+	font-weight: 600;
+	padding: 4px 10px;
+	font-size: 16px;
+}
+
+@media (min-width: 600px) {
+	.menu-btn{
+		font-size: 20px;
+		font-weight: 600;
+	}
+}
+
+.menu-link{
+	color: #292929;
+}
+
+.menu-link:hover, .menu-btn:hover, .menu-link:focus, .menu-btn:focus{
+	text-decoration: none;
+	color: white;
+	background-color: #dd4e58;
+	border-radius: 25px;
+	transition: color .25s ease-in-out;
+    -moz-transition: color .25s ease-in-out;
+    -webkit-transition: color .25s ease-in-out;	
+}
+
+/*=========== HOURS CHART ==============*/
+
+
+.busy-hours{
+	background-color: #dd4e58;
+	padding: 6em 0em;
+}
+
+.hours-title{
+	color: white;
+	text-align: center;
+	font-weight: bold;
+	font-size: 22px;
+	margin-top: 25px;
+}
+
+.hours-select{
+	margin-top: 1em;
+	border-radius: 20px;
+}
+
+
+.charts{
+	display: none;
+	width: 100%;
+   max-width: 600px;
+	padding: 0px 20px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.chart-1{
+	display: block;
+}
+
+/*=========== INSTA ==============*/
+
+.insta{
+	background-color:white;
+}
+
+.insta-txt{
+	color: #dd4e58;
+	font-size: 30px;
+	font-weight: bolder;
+	margin-top: 75px;
+	margin-bottom: 55px;
+	text-align: center;
+}
+
+@media (min-width: 600px) {
+	.insta-txt{
+		margin-top: 50px;
+		font-size: 18px;
+	}
+}
+
+.instagram-feed{
+	margin-bottom: 100px;
+}
